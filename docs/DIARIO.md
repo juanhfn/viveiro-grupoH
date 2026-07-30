@@ -8,11 +8,11 @@
 
 ## Encontro 1 — 30/07 (aula)
 
-**Presentes:**
-**Escriba:**
+**Presentes: todos exceto Lucas Alexandre**
+**Escriba: Juan Henrique**
 
-**O que se pretendia:**
-**O que se realizou:**
+**O que se pretendia: Terminar de fazer as ordens do comece aqui e já criarmos uma noção do que devemos fazer**
+**O que se realizou: conseguimos realizar o objetivo e conseguimos ter uma boa noção do caminho que devemos traçar**
 
 **Tempo gasto por história:**
 
