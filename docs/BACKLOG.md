@@ -18,7 +18,7 @@
 
 Pronto quando:
 - clicar no nome do autor, em qualquer cartão, abre a página dessa pessoa;
-- a página mostra nome, tipo (aluno ou professor), curso e interesses;
+- a página mostra nome ,foto de perfil, tipo (aluno ou professor), curso, interesses e descrição sobre a pessoa (Ex.:Universidade que ela se formou ,Linguagem de programação que mais trabalha), Contato como e-mail ou Linkedin;
 - a página lista as ideias publicadas por essa pessoa, com o título clicável;
 - se a pessoa não publicou nenhuma ideia, aparece a frase "ainda não publicou ideias" no lugar da lista vazia;
 - existe um caminho de volta ao mural sem usar o botão do navegador.
