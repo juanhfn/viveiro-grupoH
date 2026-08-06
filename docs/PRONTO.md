@@ -4,11 +4,10 @@
 
 ## Definição geral
 
-Uma história está pronta quando funciona e o cliente aprova.
+Uma historia está pronta quando todos do grupo fizerem uma analise coletiva e ter certeza que elas poderão se encaixar no projeto e que não há erros ou ambiguidades
 
 ## Critérios de aceitação
-
-Ver o BACKLOG.md, história por história.
+ confirmação de que não há ambiguidades ou erros ou furos de planos na história 
 
 ---
 
