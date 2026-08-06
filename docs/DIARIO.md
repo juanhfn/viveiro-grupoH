@@ -14,7 +14,7 @@
 **O que se pretendia: Terminar de fazer as ordens do comece aqui e já criarmos uma noção do que devemos fazer**
 **O que se realizou: conseguimos realizar o objetivo e conseguimos ter uma boa noção do caminho que devemos traçar e ler algumas histórias do backlog**
 
-**Tempo gasto por história:**
+**Tempo gasto por história: 1-2 minutos**
 
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
