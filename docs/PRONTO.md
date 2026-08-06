@@ -4,10 +4,16 @@
 
 ## Definição geral
 
-Uma historia está pronta quando todos do grupo fizerem uma analise coletiva e ter certeza que elas poderão se encaixar no projeto e que não há erros ou ambiguidades
+Uma história é considerada pronta quando for analisada coletivamente pela equipe e houver consenso de que:
+
+está alinhada aos objetivos do projeto;
+possui informações suficientes para desenvolvimento;
+não apresenta ambiguidades, inconsistências ou lacunas de requisitos;
+seus critérios de aceitação estão claros e podem ser validados;
+eventuais dependências e restrições conhecidas foram identificadas.
 
 ## Critérios de aceitação
- confirmação de que não há ambiguidades ou erros ou furos de planos na história 
+A história possui informações suficientes para desenvolvimento, sem ambiguidades, inconsistências ou requisitos ausentes.
 
 ---
 
