@@ -8,7 +8,7 @@
 > Uma frase, verificável, acordada com o cliente. Tudo o que entrar no
 > compromisso deve servir a ela.
 
-*(escrever aqui)*
+*(terminar as definições de pronto, ler todas as histórias , )*
 
 ## 2. Compromisso
 
