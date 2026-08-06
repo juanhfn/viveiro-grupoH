@@ -31,6 +31,7 @@ Implementar filtro por curso na barra lateral do mural.
 
 Pronto quando:
 - o filtro estiver funcionando.
+- Funções que filtrem sua pesquisa de acordo com os interesses do usuário(Ex:
 
 ---
 
