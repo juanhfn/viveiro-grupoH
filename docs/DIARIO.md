@@ -19,9 +19,14 @@
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
 
-**Impedimentos encontrados:** *(o que travou o trabalho, e o que foi feito a respeito)*
+**Impedimentos encontrados:** *(o que travou o trabalho, e o que foi feito a respeito)* uma pequena falta de concentração no começo e falta de entendimento do que se devia fazer mas logo conseguimos nos guiar 
 
 **Decisões tomadas:** *(com a justificativa de cada uma)*
+
+fazer tudo que estava no comece aqui 
+ler as historias 
+ler todas as historias 
+
 
 ---
 
