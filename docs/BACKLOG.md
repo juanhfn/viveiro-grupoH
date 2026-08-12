@@ -90,7 +90,12 @@ Pronto quando:
 **para** que os estados das ideias fiquem registrados.
 
 Pronto quando:
-- os estados estiverem implementados.
+- Uma nova ideia é criada automaticamente com o estado Semente.
+- O autor da ideia consegue alterar manualmente seu estado.
+- O autor consegue alterar o estado entre Semente, Germinando e Proposta.
+- O estado atual da ideia é exibido de forma clara no mural.
+- Após uma alteração, o novo estado é salvo e permanece correto quando a ideia for acessada novamente.
+- Usuários que não são responsáveis pela ideia conseguem visualizar o estado, mas não conseguem alterá-lo.
 
 Obs.: falamos em três estados — semente, germinando, proposta.
 
