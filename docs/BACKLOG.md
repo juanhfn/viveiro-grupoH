@@ -27,11 +27,13 @@ Pronto quando:
 
 ### V-02 — Filtro por curso
 
-Implementar filtro por curso na barra lateral do mural.
+Implementar um filtro por curso na barra lateral do mural, permitindo que o usuário visualize apenas os projetos relacionados ao curso selecionado.
 
 Pronto quando:
-- o filtro estiver funcionando.
-- Funções que filtrem sua pesquisa de acordo com os interesses do usuário(Ex:
+- O usuário conseguir selecionar um curso na barra lateral do mural.
+- O mural exibir apenas os projetos relacionados ao curso selecionado.
+- O usuário conseguir remover o filtro e visualizar novamente todos os projetos.
+- O filtro funcionar corretamente sem precisar recarregar a página.
 
 ---
 
