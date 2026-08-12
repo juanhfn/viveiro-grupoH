@@ -160,3 +160,19 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 - **B-04** — buscar `robotica` não encontra "Robótica"; buscar `Musica` não encontra "música".
 - **B-05** — o número de apoios no cartão só muda depois que se refaz a busca.
 - **B-06** — título comprido vaza para fora do cartão e atravessa o cartão vizinho.
+
+## Registro da triagem — 09/07
+
+| História v-01 | Situação em que foi recebida: estava até que bem completa | O que foi alterado: optamos por não fazer nada nela |Justificativa: o grupo concordou que ela já estava boa
+
+| História v-02 | Situação em que foi recebida: totalmente incompleta e vaga | O que foi alterado: os requisitos de pronto e melhor explicação de como o filtro deve funcionar  |Justificativa: estava totalmente incompleta e não havia como ter uma forma de saber que o filtro estava pronto
+
+| História v-03 | Situação em que foi recebida: estava muito boa e completa | O que foi alterado: Nada |Justificativa: o grupo concordou que a ideia já estava concreta e pronta
+
+| História v-04 | Situação em que foi recebida: estava muito vaga  | O que foi alterado: acrescentamos critérios de pronto que sejam testáveis |Justificativa: havia poucos detalhes importantes que deve ter nesse tipo de função
+
+| História v-05 | Situação em que foi recebida: Bem simples porem direta e bem explicada | O que foi alterado: Nada |Justificativa: Uma função simples não precisa de muitos detalhes os mesmo que já estão bem definidos para testes
+
+| História v-06 | Situação em que foi recebida: horrível , somente um detalhe muito vago | O que foi alterado: acrescentamos as funções que devem ser realizadas e por quem e como cada estado deve ser definido  |Justificativa: não havia nada de detalhes então não reaproveitamos nada somente seguimos o caminho detalhado pela ideia e demos nosso próprio detalhamento
+
+| História v-07 | Situação em que foi recebida: a ideia e os detalhamentos já estavam bons e foi umas das mais concretas | O que foi alterado: Nada |Justificativa: essa ideia estava muito boa e apresentava todos os requisitos de pronto que foram definidos 
