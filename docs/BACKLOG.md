@@ -59,9 +59,12 @@ Pronto quando:
 **para** não perder tempo.
 
 Pronto quando:
-- a interface estiver amigável;
-- a busca for rápida;
-- o resultado for relevante.
+- Existir um campo de busca visível no mural.
+- O usuário consegue pesquisar ideias por título, resumo ou tags.
+- Os resultados exibidos correspondem aos termos pesquisados.
+- Quando não houver nenhuma ideia correspondente, o sistema informa que nenhum resultado foi encontrado.
+- A busca apresenta os resultados sem necessidade de recarregar a página.
+- O usuário consegue limpar a pesquisa e voltar a visualizar todas as ideias.
 
 ---
 
