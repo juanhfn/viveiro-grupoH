@@ -5,10 +5,7 @@
 
 ## 1. Meta da sprint
 
-> Uma frase, verificável, acordada com o cliente. Tudo o que entrar no
-> compromisso deve servir a ela.
-
-*(terminar as definições de pronto, ler todas as histórias , )*
+> Revisar e deixar todas as histórias da versão V-H suficientemente detalhadas para desenvolvimento, com critérios de aceitação claros e testáveis, de acordo com a Definição de Pronto.
 
 ## 2. Compromisso
 
@@ -16,11 +13,15 @@
 > só será preenchida em 13/08 — deixá-la vazia até lá.
 
 | ID | História | Estimativa inicial (horas) | Reestimativa 13/08 (pontos) | Situação ao final |
-|---|---|---|---|---|
 | V-?? | | | | |
-| V-?? | | | | |
+|V-02|Filtro por curso|0.16 horas|---|---|
+|V-03|Publicar uma ideia |0.20 horas| | |
+| V-04 |Encontrar ideias que combinam comigo |0.20 horas| | |
+| V-05 |Entrar e sair de um grupo |0.16 horas| | |
+| V-06 |Estados da ideias  |0.25 horas | | |
+| V-07 |Registrar interesse em participar |0.18h | | |
 
-**Capacidade assumida pela equipe:** ____ horas
+**Capacidade assumida pela equipe:** 1.08 horas
 (4 encontros + sessões extras previstas)
 
 ## 3. Quadro
@@ -29,13 +30,20 @@
 > outra; não fragmentar.
 
 ### A fazer
-- V-??
+V-09
 
 ### Em andamento
-- V-??
+- V-08(lida rapida)
 
 ### Concluído
-*(critérios de aceitação verificados — ver PRONTO.md)*
+* V-01
+* V-02
+* V-03
+* V-04
+* V-05
+* V-06
+* V-07
+
 
 ## 4. Registro da renegociação de escopo — 13/08
 
