@@ -163,16 +163,11 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 
 ## Registro da triagem — 09/07
 
-| História v-01 | Situação em que foi recebida: estava até que bem completa | O que foi alterado: optamos por não fazer nada nela |Justificativa: o grupo concordou que ela já estava boa
-
-| História v-02 | Situação em que foi recebida: totalmente incompleta e vaga | O que foi alterado: os requisitos de pronto e melhor explicação de como o filtro deve funcionar  |Justificativa: estava totalmente incompleta e não havia como ter uma forma de saber que o filtro estava pronto
-
-| História v-03 | Situação em que foi recebida: estava muito boa e completa | O que foi alterado: Nada |Justificativa: o grupo concordou que a ideia já estava concreta e pronta
-
-| História v-04 | Situação em que foi recebida: estava muito vaga  | O que foi alterado: acrescentamos critérios de pronto que sejam testáveis |Justificativa: havia poucos detalhes importantes que deve ter nesse tipo de função
-
-| História v-05 | Situação em que foi recebida: Bem simples porem direta e bem explicada | O que foi alterado: Nada |Justificativa: Uma função simples não precisa de muitos detalhes os mesmo que já estão bem definidos para testes
-
-| História v-06 | Situação em que foi recebida: horrível , somente um detalhe muito vago | O que foi alterado: acrescentamos as funções que devem ser realizadas e por quem e como cada estado deve ser definido  |Justificativa: não havia nada de detalhes então não reaproveitamos nada somente seguimos o caminho detalhado pela ideia e demos nosso próprio detalhamento
-
-| História v-07 | Situação em que foi recebida: a ideia e os detalhamentos já estavam bons e foi umas das mais concretas | O que foi alterado: Nada |Justificativa: essa ideia estava muito boa e apresentava todos os requisitos de pronto que foram definidos 
+História	Situação em que foi recebida	O que foi alterado	Justificativa
+História v-01	Estava até que bem completa	Optamos por não fazer nada nela	O grupo concordou que ela já estava boa
+História v-02	Totalmente incompleta e vaga	Os requisitos de pronto e uma melhor explicação de como o filtro deve funcionar	Estava totalmente incompleta e não havia como ter uma forma de saber que o filtro estava pronto
+História v-03	Estava muito boa e completa	Nada	O grupo concordou que a ideia já estava concreta e pronta
+História v-04	Estava muito vaga	Acrescentamos critérios de pronto que sejam testáveis	Havia poucos detalhes importantes que esse tipo de função deve ter
+História v-05	Bem simples, porém direta e bem explicada	Nada	Uma função simples não precisa de muitos detalhes, desde que os que já estão definidos sejam suficientes para os testes
+História v-06	Horrível, somente um detalhe muito vago	Acrescentamos as funções que devem ser realizadas, por quem e como cada estado deve ser definido	Não havia detalhes suficientes, então não reaproveitamos nada; somente seguimos o caminho detalhado pela ideia e demos nosso próprio detalhamento
+História v-07	A ideia e os detalhamentos já estavam bons e foi uma das mais concretas	Nada	Essa ideia estava muito boa e apresentava todos os requisitos de pronto que foram definidos
