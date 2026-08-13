@@ -30,19 +30,24 @@ ler todas as historias
 
 ---
 
-## Sessão extra — [data], [duração]
+## Sessão extra — [09/12], [duração 1:30 hora]
 
-**Como foi combinada:** *(quando se marcou, por qual meio, quem confirmou)*
-**Presentes:**
-**Escriba:**
+**Como foi combinada: na sala de aula e realiazamos ela em casa pelo discord ** *(quando se marcou, por qual meio, quem confirmou)*
+**Presentes: todos os membros do grupo foram presentes**
+**Escriba:Thiago Cardoso**
 
-**O que se realizou:**
+**O que se realizou: terminamos as definições de pronto , glossario e 80% das hisotrias do backlog**
 
 | ID | Quem trabalhou | Tempo (min) |
-|---|---|---|
+|01|Juan|1:30horas|
+|02|Thiago|1:50horas|
+|03|Brenno|1:30horas|
+|04|Felipe|1:40horas|
+|05|Lucas Eduardo|1:30horas|
+|06|Lucas Alexandre|1:30horas|
 
 **Impedimentos e decisões:**
-
+um impedimento foi que o principal objetivo era tentarmos terminar as historias hoje porem por motivos pessoas alguns integrantes do grupo tiveram que sair, optamos por encerrar a sessão pois ja haviamos feito um trabalho consideravel 
 ---
 
 > Repetir o bloco adequado para cada encontro (06/08, 13/08, 20/08) e para
