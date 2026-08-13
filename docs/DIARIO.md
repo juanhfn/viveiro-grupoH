@@ -17,16 +17,20 @@
 **Tempo gasto por história: 1-2 minutos**
 
 | ID | Quem trabalhou | Tempo (min) |
-|---|Toda a equipe|1-2min por historia|
+|---|---|---|
+|  | Toda a equipe | 1-2 min por história |
 
-**Impedimentos encontrados:** *No início houve uma pequena dificuldade de concentração e falta de clareza sobre quais atividades deveriam ser realizadas. Após a organização das tarefas, a equipe conseguiu se orientar e prosseguir normalmente.
+### Impedimentos encontrados
 
-**Decisões tomadas:** *(com a justificativa de cada uma)*
+No início houve uma pequena dificuldade de concentração e falta de clareza sobre quais atividades deveriam ser realizadas. Após a organização das tarefas, a equipe conseguiu se orientar e prosseguir normalmente.
 
-Concluir as atividades da seção “Comece aqui”.
-Ler e analisar as histórias do backlog.
-Ler todas as histórias para compreender o trabalho necessário na Sprint. 
+### Decisões tomadas
 
+| Decisão | Justificativa |
+|---|---|
+| Concluir as atividades da seção “Comece aqui” | Para garantir que todas as orientações iniciais fossem realizadas antes do início das demais atividades. |
+| Ler e analisar as histórias do backlog | Para compreender o conteúdo das histórias e identificar o trabalho necessário. |
+| Ler todas as histórias para compreender o trabalho necessário na Sprint | Para que toda a equipe tivesse uma visão geral das atividades e pudesse se organizar melhor para a Sprint. |
 
 ---
 
