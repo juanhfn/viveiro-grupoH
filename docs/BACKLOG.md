@@ -123,7 +123,11 @@ Pronto quando:
 **para** não ter que digitar tudo de novo.
 
 Pronto quando:
-- os dados forem salvos em `localStorage` usando `JSON.stringify`, e recuperados no carregamento da página.
+  
+Os dados forem salvos no localStorage utilizando JSON.stringify.
+Os dados salvos forem recuperados no carregamento da página utilizando JSON.parse.
+Os dados recuperados forem exibidos novamente nos respectivos campos.
+Ao recarregar a página, os dados previamente preenchidos não sejam perdidos.
 
 ---
 
@@ -174,3 +178,4 @@ Claro. Copie o bloco abaixo inteiro; ele está em Markdown puro:
 | História v-05 | Bem simples, porém direta e bem explicada | Nada | Uma função simples não precisa de muitos detalhes, desde que os que já estão definidos sejam suficientes para os testes |
 | História v-06 | Horrível, somente um detalhe muito vago | Acrescentamos as funções que devem ser realizadas, por quem e como cada estado deve ser definido | Não havia detalhes suficientes, então não reaproveitamos nada; somente seguimos o caminho detalhado pela ideia e demos nosso próprio detalhamento |
 | História v-07 | A ideia e os detalhamentos já estavam bons e foi uma das mais concretas | Nada | Essa ideia estava muito boa e apresentava todos os requisitos de pronto que foram definidos |
+| História v-08 | A história está clara, mas pode ficar mais objetiva, testável e alinhada ao critério de aceite. | Foi alterado apenas o bloco “Pronto quando”, deixando os critérios mais específicos e testáveis. |A alteração foi feita para deixar o “Pronto quando” mais claro, completo e fácil de testar.|
