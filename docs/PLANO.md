@@ -14,12 +14,12 @@
 
 | ID | História | Estimativa inicial (horas) | Reestimativa 13/08 (pontos) | Situação ao final |
 | V-?? | | | | |
-|V-02|Filtro por curso|0.16 horas|---|---|
-|V-03|Publicar uma ideia |0.20 horas| | |
-| V-04 |Encontrar ideias que combinam comigo |0.20 horas| | |
-| V-05 |Entrar e sair de um grupo |0.16 horas| | |
-| V-06 |Estados da ideias  |0.25 horas | | |
-| V-07 |Registrar interesse em participar |0.18h | | |
+|V-02|Filtro por curso|1.30 horas|---|---|
+|V-03|Publicar uma ideia |3 horas| | |
+| V-04 |Encontrar ideias que combinam comigo |3 horas| | |
+| V-05 |Entrar e sair de um grupo |2 horas| | |
+| V-06 |Estados da ideias  |2 horas | | |
+| V-07 |Registrar interesse em participar |2 | | |
 
 **Capacidade assumida pela equipe:** 1.08 horas
 (4 encontros + sessões extras previstas)
