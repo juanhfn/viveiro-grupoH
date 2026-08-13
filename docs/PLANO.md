@@ -5,7 +5,7 @@
 
 ## 1. Meta da sprint
 
-> Revisar e deixar todas as histórias da versão V-H suficientemente detalhadas para desenvolvimento, com critérios de aceitação claros e testáveis, de acordo com a Definição de Pronto.
+>Revisar todas as histórias da versão V-H, garantindo que estejam suficientemente detalhadas para desenvolvimento e possuam critérios de aceitação claros e testáveis, de acordo com a Definição de Pronto.
 
 ## 2. Compromisso
 
