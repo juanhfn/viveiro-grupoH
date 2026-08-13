@@ -11,21 +11,21 @@
 **Presentes: todos exceto Lucas Alexandre**
 **Escriba: Juan Henrique**
 
-**O que se pretendia: Terminar de fazer as ordens do comece aqui e já criarmos uma noção do que devemos fazer**
-**O que se realizou: conseguimos realizar o objetivo e conseguimos ter uma boa noção do caminho que devemos traçar e ler algumas histórias do backlog**
+**O que se pretendia:Concluir as atividades da seção “Comece aqui” e estabelecer uma visão inicial das tarefas que deveriam ser realizadas durante a Sprint.**
+**O que se realizou:As atividades propostas foram concluídas. A equipe conseguiu estabelecer uma visão geral do caminho a seguir e iniciou a leitura e análise de algumas histórias do backlog.
 
 **Tempo gasto por história: 1-2 minutos**
 
 | ID | Quem trabalhou | Tempo (min) |
-|---|---|---|
+|---|Toda a equipe|1-2min por historia|
 
-**Impedimentos encontrados:** *(o que travou o trabalho, e o que foi feito a respeito)* uma pequena falta de concentração no começo e falta de entendimento do que se devia fazer mas logo conseguimos nos guiar 
+**Impedimentos encontrados:** *No início houve uma pequena dificuldade de concentração e falta de clareza sobre quais atividades deveriam ser realizadas. Após a organização das tarefas, a equipe conseguiu se orientar e prosseguir normalmente.
 
 **Decisões tomadas:** *(com a justificativa de cada uma)*
 
-fazer tudo que estava no comece aqui 
-ler as historias 
-ler todas as historias 
+Concluir as atividades da seção “Comece aqui”.
+Ler e analisar as histórias do backlog.
+Ler todas as histórias para compreender o trabalho necessário na Sprint. 
 
 
 ---
@@ -40,14 +40,14 @@ ler todas as historias
 
 | ID | Quem trabalhou | Tempo (min) |
 |01|Juan|1:30horas|
-|02|Thiago|1:50horas|
+|02|Thiago|1:30horas|
 |03|Brenno|1:30horas|
-|04|Felipe|1:40horas|
+|04|Felipe|1:30horas|
 |05|Lucas Eduardo|1:30horas|
 |06|Lucas Alexandre|1:30horas|
 
 **Impedimentos e decisões:**
-um impedimento foi que o principal objetivo era tentarmos terminar as historias hoje porem por motivos pessoas alguns integrantes do grupo tiveram que sair, optamos por encerrar a sessão pois ja haviamos feito um trabalho consideravel 
+um impedimento foi que o principal objetivo era tentarmos terminar as historias hoje porem por motivos pessoais alguns integrantes do grupo tiveram que sair, optamos por encerrar a sessão pois ja haviamos feito um trabalho consideravel 
 ---
 
 > Repetir o bloco adequado para cada encontro (06/08, 13/08, 20/08) e para
