@@ -29,5 +29,53 @@ Fica registrado. Não resolvemos.
 
 ## Termos ainda sem definição
 
-apoiar · interessado · membro · tag · curso · mural · perfil · proposta ·
-semente · germinando
+Termos
+
+grupo
+
+Um conjunto de usuários reunidos no Viveiro em torno de um tema ou interesse. Um usuário pode entrar ou sair de um grupo, e o sistema registra seus membros.
+
+apoiar
+
+Ação realizada por um usuário para demonstrar apoio a uma ideia. O apoio fica registrado pelo sistema e pode ser contabilizado.
+
+interessado
+
+Usuário que declarou interesse em participar de uma ideia por meio da funcionalidade “Tenho interesse em participar”. Uma pessoa pode demonstrar interesse uma única vez em cada ideia e pode desfazer seu interesse.
+
+membro
+
+Usuário que pertence a determinado grupo do Viveiro. Sua participação é registrada na lista de membros do grupo.
+
+tag
+
+Palavra ou termo associado a uma ideia para identificar seu tema ou assunto e facilitar sua organização e busca.
+
+curso
+
+Curso ao qual uma ideia ou usuário está relacionado, utilizado para organizar e filtrar as ideias exibidas no mural.
+
+mural
+
+Área do Viveiro onde as ideias publicadas são exibidas e podem ser pesquisadas e filtradas pelos usuários.
+
+perfil
+
+Conjunto de informações associadas a um usuário no Viveiro, utilizado para identificá-lo dentro do sistema.
+
+proposta
+
+Estado de uma ideia que já avançou além das etapas iniciais e foi formalizada como uma proposta de projeto.
+
+semente
+
+Estado inicial de uma ideia recém-criada, ainda em fase inicial de desenvolvimento.
+
+germinando
+
+Estado de uma ideia que está sendo desenvolvida ou amadurecida, mas ainda não foi formalizada como uma proposta
+
+
+o que falta definir
+
+apoiar 
