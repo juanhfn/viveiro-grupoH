@@ -161,13 +161,16 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 - **B-05** — o número de apoios no cartão só muda depois que se refaz a busca.
 - **B-06** — título comprido vaza para fora do cartão e atravessa o cartão vizinho.
 
-## Registro da triagem — 09/07
+## Registro da triagem — 09/08
 
-História	Situação em que foi recebida	O que foi alterado	Justificativa
-História v-01	Estava até que bem completa	Optamos por não fazer nada nela	O grupo concordou que ela já estava boa
-História v-02	Totalmente incompleta e vaga	Os requisitos de pronto e uma melhor explicação de como o filtro deve funcionar	Estava totalmente incompleta e não havia como ter uma forma de saber que o filtro estava pronto
-História v-03	Estava muito boa e completa	Nada	O grupo concordou que a ideia já estava concreta e pronta
-História v-04	Estava muito vaga	Acrescentamos critérios de pronto que sejam testáveis	Havia poucos detalhes importantes que esse tipo de função deve ter
-História v-05	Bem simples, porém direta e bem explicada	Nada	Uma função simples não precisa de muitos detalhes, desde que os que já estão definidos sejam suficientes para os testes
-História v-06	Horrível, somente um detalhe muito vago	Acrescentamos as funções que devem ser realizadas, por quem e como cada estado deve ser definido	Não havia detalhes suficientes, então não reaproveitamos nada; somente seguimos o caminho detalhado pela ideia e demos nosso próprio detalhamento
-História v-07	A ideia e os detalhamentos já estavam bons e foi uma das mais concretas	Nada	Essa ideia estava muito boa e apresentava todos os requisitos de pronto que foram definidos
+Claro. Copie o bloco abaixo inteiro; ele está em Markdown puro:
+
+| História | Situação em que foi recebida | O que foi alterado | Justificativa |
+|---|---|---|---|
+| História v-01 | Estava até que bem completa | Optamos por não fazer nada nela | O grupo concordou que ela já estava boa |
+| História v-02 | Totalmente incompleta e vaga | Os requisitos de pronto e uma melhor explicação de como o filtro deve funcionar | Estava totalmente incompleta e não havia como ter uma forma de saber que o filtro estava pronto |
+| História v-03 | Estava muito boa e completa | Nada | O grupo concordou que a ideia já estava concreta e pronta |
+| História v-04 | Estava muito vaga | Acrescentamos critérios de pronto que sejam testáveis | Havia poucos detalhes importantes que esse tipo de função deve ter |
+| História v-05 | Bem simples, porém direta e bem explicada | Nada | Uma função simples não precisa de muitos detalhes, desde que os que já estão definidos sejam suficientes para os testes |
+| História v-06 | Horrível, somente um detalhe muito vago | Acrescentamos as funções que devem ser realizadas, por quem e como cada estado deve ser definido | Não havia detalhes suficientes, então não reaproveitamos nada; somente seguimos o caminho detalhado pela ideia e demos nosso próprio detalhamento |
+| História v-07 | A ideia e os detalhamentos já estavam bons e foi uma das mais concretas | Nada | Essa ideia estava muito boa e apresentava todos os requisitos de pronto que foram definidos |
