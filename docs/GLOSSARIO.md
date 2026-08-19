@@ -27,7 +27,7 @@ Fica registrado. Não resolvemos.
 
 ---
 
-## Termos ainda sem definição
+## Termos 
 
 Termos
 
