@@ -32,10 +32,10 @@
 > outra; não fragmentar.
 
 ### A fazer
-V-09
+
 
 ### Em andamento
-- V-08(lida rapida)
+
 
 ### Concluído
 * V-01
@@ -45,6 +45,9 @@ V-09
 * V-05
 * V-06
 * V-07
+* V-08
+* V-09
+
 
 
 ## 4. Registro da renegociação de escopo — 13/08
