@@ -1,31 +1,19 @@
 # Glossário do Viveiro
 
-> Documento herdado. Começado em 2026-04-02 e abandonado no mesmo dia.
-> A ideia era fixar o sentido das palavras que a gente usa, para parar de
-> discutir sem saber se estávamos falando da mesma coisa.
-
----
+> Documento herdado, iniciado em 02/04/2026 e retomado pela equipe durante a Sprint. As definições foram revisadas para eliminar ambiguidades no desenvolvimento do sistema.
 
 ### ideia
 
-Uma proposta ainda informal, publicada por uma pessoa no mural do Viveiro.
-Tem título, resumo, autor, tags e data. **Não** é um projeto: um projeto
-existe perante a instituição, tem edital, orientador e prazo. Uma ideia não
-tem nada disso — ela existe para descobrir se vale a pena virar projeto.
+Uma proposta ainda informal, publicada por uma pessoa no mural do Viveiro. Tem título, resumo, autor, tags e data. Não é um projeto: um projeto existe perante a instituição, tem edital, orientador e prazo. Uma ideia não tem nada disso — ela existe para descobrir se vale a pena virar projeto.
 
 ### grupo
 
-Aqui a gente empacou.
+Conjunto de alunos reunidos dentro do Viveiro em torno de uma ideia ou tema. É diferente da equipe responsável pelo desenvolvimento do sistema.
 
-"Grupo" às vezes quer dizer o coletivo de pessoas reunidas dentro do Viveiro
-em torno de um tema (o que o sistema mostra na aba Grupos). Outras vezes,
-nas nossas reuniões, "grupo" quer dizer *a nossa equipe de trabalho*. Já
-aconteceu de alguém dizer "adiciona o fulano no grupo" e ninguém saber se
-era no sistema ou na disciplina.
+### equipe
 
-Fica registrado. Não resolvemos.
+Conjunto de integrantes responsáveis pelo desenvolvimento do sistema Viveiro durante a disciplina.
 
----
 
 ## Termos 
 
