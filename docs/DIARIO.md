@@ -55,6 +55,15 @@ No início houve uma pequena dificuldade de concentração e falta de clareza so
 um impedimento foi que o principal objetivo era tentarmos terminar as historias hoje porem por motivos pessoais alguns integrantes do grupo tiveram que sair, optamos por encerrar a sessão pois ja haviamos feito um trabalho consideravel 
 ---
 
+Sessão extra — [16/08], [duração 40 minutos]
+**Como foi combinada: pelo discord Presentes: todos os membros do grupo foram presentes Escriba: Felipe Nogueira
+
+O que se realizou: terminar as histórias que faltavam e o julgamento de quanto tempo demoraríamos para fazer o código dessa histórias 
+
+ID	Quem trabalhou	Tempo (horas)
+01	Todos            40 minutos
+Impedimentos e decisões: sem impedimentos 
+
 > Repetir o bloco adequado para cada encontro (06/08, 13/08, 20/08) e para
 > cada sessão extra. Não apagar blocos de sessões que não aconteceram:
 > registrar "não houve sessão extra nesta semana" também é registro.
