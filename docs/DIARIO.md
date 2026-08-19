@@ -42,13 +42,14 @@ No início houve uma pequena dificuldade de concentração e falta de clareza so
 
 **O que se realizou: terminamos as definições de pronto , glossario e 80% das hisotrias do backlog**
 
-| ID | Quem trabalhou | Tempo (min) |
-|01|Juan|1:30horas|
-|02|Thiago|1:30horas|
-|03|Brenno|1:30horas|
-|04|Felipe|1:30horas|
-|05|Lucas Eduardo|1:30horas|
-|06|Lucas Alexandre|1:30horas|
+| ID | Quem trabalhou | Tempo (horas) |
+| --- | --- | --- |
+| 01 | Juan | 1:30 horas |
+| 02 | Thiago | 1:30 horas |
+| 03 | Brenno | 1:30 horas |
+| 04 | Felipe | 1:30 horas |
+| 05 | Lucas Eduardo | 1:30 horas |
+| 06 | Lucas Alexandre | 1:30 horas |
 
 **Impedimentos e decisões:**
 um impedimento foi que o principal objetivo era tentarmos terminar as historias hoje porem por motivos pessoais alguns integrantes do grupo tiveram que sair, optamos por encerrar a sessão pois ja haviamos feito um trabalho consideravel 
