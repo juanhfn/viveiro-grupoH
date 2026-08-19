@@ -167,15 +167,13 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 
 ## Registro da triagem — 09/08
 
-Claro. Copie o bloco abaixo inteiro; ele está em Markdown puro:
-
-| História | Situação em que foi recebida | O que foi alterado | Justificativa |
-|---|---|---|---|
-| História v-01 | Estava até que bem completa | Optamos por não fazer nada nela | O grupo concordou que ela já estava boa |
-| História v-02 | Totalmente incompleta e vaga | Os requisitos de pronto e uma melhor explicação de como o filtro deve funcionar | Estava totalmente incompleta e não havia como ter uma forma de saber que o filtro estava pronto |
-| História v-03 | Estava muito boa e completa | Nada | O grupo concordou que a ideia já estava concreta e pronta |
-| História v-04 | Estava muito vaga | Acrescentamos critérios de pronto que sejam testáveis | Havia poucos detalhes importantes que esse tipo de função deve ter |
-| História v-05 | Bem simples, porém direta e bem explicada | Nada | Uma função simples não precisa de muitos detalhes, desde que os que já estão definidos sejam suficientes para os testes |
-| História v-06 | Horrível, somente um detalhe muito vago | Acrescentamos as funções que devem ser realizadas, por quem e como cada estado deve ser definido | Não havia detalhes suficientes, então não reaproveitamos nada; somente seguimos o caminho detalhado pela ideia e demos nosso próprio detalhamento |
-| História v-07 | A ideia e os detalhamentos já estavam bons e foi uma das mais concretas | Nada | Essa ideia estava muito boa e apresentava todos os requisitos de pronto que foram definidos |
-| História v-08 | A história está clara, mas pode ficar mais objetiva, testável e alinhada ao critério de aceite. | Foi alterado apenas o bloco “Pronto quando”, deixando os critérios mais específicos e testáveis. |A alteração foi feita para deixar o “Pronto quando” mais claro, completo e fácil de testar.|
+História,Situação em que foi recebida,O que foi alterado,Justificativa
+V-01 — Página da pessoa,"Incompleta: Apresentava apenas dados básicos do usuário (nome, curso, tipo, interesses).","Adição de foto de perfil, biografia detalhada e links de contato (e-mail e LinkedIn).",Enriquecer o perfil para facilitar a identificação de habilidades e o contato entre alunos.
+V-02 — Filtro por curso,"Vaga / Superficial: Tinha um critério de aceite genérico (""o filtro estiver funcionando"").","Criação de critérios claros de seleção, limpeza de filtro, escopo e execução sem reload.",Eliminar ambiguidades e permitir que a equipe de testes valide a funcionalidade.
+V-03 — Publicar uma ideia,Completa: Veio bem detalhada e pronta para desenvolvimento.,Nenhuma alteração realizada.,Os critérios originais já cobriam perfeitamente o formulário e suas regras de envio.
+V-04 — Encontrar ideias que combinam comigo,"Subjetiva: Usava termos não mensuráveis como ""interface amigável"" e ""busca rápida"".","Substituição por regras objetivas: busca por título/resumo/tags, tratamento de resultados vazios e ação de limpar busca.","Tornar a história testável, trocando percepções visuais por comportamentos do sistema."
+V-05 — Entrar e sair de um grupo,Completa: Veio bem detalhada e com regras claras de alteração de estado.,Nenhuma alteração realizada.,A história cobria adequadamente a gestão de membros e a troca de contexto de usuário.
+V-06 — Estados da ideia,Incompleta: Continha apenas uma observação solta citando três estados.,"Definição do estado inicial ('Semente'), regras de permissão de edição exclusivas do autor e exibição no mural.",Detalhar o ciclo de vida da ideia e garantir segurança nas permissões de alteração.
+V-07 — Registrar interesse em participar,"Completa: Veio bem especificada, cobrindo adições, remoções e contadores.",Nenhuma alteração realizada.,O escopo atendia perfeitamente a necessidade de registrar interesse e evitar duplicidade.
+V-08 — Não perder o que foi escrito,"Parcialmente especificada: Mencionava o localStorage, mas omitia o ciclo completo de recuperação.","Inclusão do uso explícito de JSON.parse, preenchimento automático dos campos e persistência pós-reload.",Orientar o desenvolvimento frontend quanto ao fluxo completo de persistência de dados.
+V-09 — Aviso de novo interessado,"Completa: Veio bem estruturada com regras de tempo, conteúdo e clique na notificação.",Nenhuma alteração realizada.,Os critérios eram suficientes para orientar a implementação das notificações push.
