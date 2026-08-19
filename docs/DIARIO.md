@@ -34,13 +34,13 @@ No início houve uma pequena dificuldade de concentração e falta de clareza so
 
 ---
 
-## Sessão extra — [09/12], [duração 1:30 hora]
+## Sessão extra — [09/08], [duração 1:30 hora]
 
 **Como foi combinada: na sala de aula e realiazamos ela em casa pelo discord ** *(quando se marcou, por qual meio, quem confirmou)*
 **Presentes: todos os membros do grupo foram presentes**
 **Escriba:Thiago Cardoso**
 
-**O que se realizou: terminamos as definições de pronto , glossario e 80% das hisotrias do backlog**
+**O que se realizou: terminamos as definições de pronto , glossario e 80% das historias do backlog**
 
 | ID | Quem trabalhou | Tempo (horas) |
 | --- | --- | --- |
