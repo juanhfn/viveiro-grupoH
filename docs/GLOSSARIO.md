@@ -76,6 +76,8 @@ germinando
 Estado de uma ideia que está sendo desenvolvida ou amadurecida, mas ainda não foi formalizada como uma proposta
 
 
-o que falta definir
+
 
 apoiar 
+
+ação de validar e incentivar publicamente um projeto, servindo como a ponte entre uma ideia abstrata e a formação de uma equipe real.
