@@ -14,6 +14,7 @@
 
 | **ID** | **História**                         | **Estimativa inicial (horas)** | **Reestimativa 13/08 (pontos)** | **Situação ao final** |
 | ------ | ------------------------------------ | -----------------------------: | ------------------------------: | --------------------- |
+| V-01   |  Pagina da pessoa                    |                        4 horas |                       5.5 horas | --------------------- |
 | V-02   | Filtro por curso                     |                     1,30 horas |                         3 horas | ---                   |
 | V-03   | Publicar uma ideia                   |                        3 horas |                         7 horas | ---                   |
 | V-04   | Encontrar ideias que combinam comigo |                        3 horas |                         5 horas | ---                   |
