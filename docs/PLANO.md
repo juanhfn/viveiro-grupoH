@@ -63,6 +63,12 @@
 
 **O que foi retirado do compromisso:** *(IDs e motivo)*
 
+todas as historias exceto as v-02 v-05 v-09
+
 **O que o cliente decidiu:** *(registrar a decisão nas palavras em que foi dada)*
 
+que está bem feito e pode ser realizado dessa forma 
+
 **A meta permanece alcançável?** *(sim/não, e por quê)*
+
+sim . pois essas histórias foram selecionadas pois estão no nosso alcance e foram selecionadas com nossos critérios de habilidade .
