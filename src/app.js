@@ -88,8 +88,12 @@ function desenharMural() {
   var alvo = document.getElementById("cartoes");
   alvo.innerHTML = "";
 
-  for (var i = 0; i < lista.length; i++) {
-    alvo.appendChild(montarCartao(lista[i]));
+  if (lista.length === 0) {
+    alvo.appendChild(montarMensagemVazia());
+  } else {
+    for (var i = 0; i < lista.length; i++) {
+      alvo.appendChild(montarCartao(lista[i]));
+    }
   }
 
   document.getElementById("contagem").textContent =
@@ -101,6 +105,13 @@ function desenharMural() {
   } else {
     aviso.textContent = "";
   }
+}
+
+function montarMensagemVazia() {
+  var caixa = document.createElement("div");
+  caixa.className = "mensagem-vazia";
+  caixa.textContent = "Nenhum resultado encontrado.";
+  return caixa;
 }
 
 function montarCartao(ideia) {
