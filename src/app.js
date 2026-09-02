@@ -1,21 +1,9 @@
-/* Viveiro — lógica da página
-   escrita no 1o semestre de 2026
-
-   Como funciona, resumido:
-   - os dados vêm do arquivo dados.js, na variável DADOS
-   - o objeto `estado` guarda o que está selecionado agora
-   - a função desenhar() apaga a tela e redesenha tudo a partir do estado
-   Se você mudar alguma coisa nos dados, chame desenhar() de novo.
-*/
-
 var estado = {
-  pessoa: null,      // id da pessoa que está navegando
-  busca: "",         // texto digitado
-  tag: null,         // tag clicada, se houver
+  pessoa: null,
+  busca: "",
+  tag: null,
   aba: "mural"
 };
-
-/* ------------------------------------------------ atalhos aos dados */
 
 function pessoaPorId(id) {
   for (var i = 0; i < DADOS.pessoas.length; i++) {
@@ -36,21 +24,17 @@ function ideiaPorId(id) {
   return null;
 }
 
-/* ------------------------------------------------------- filtragem */
-
 function ideiasVisiveis() {
   var resultado = [];
   for (var i = 0; i < DADOS.ideias.length; i++) {
     var ideia = DADOS.ideias[i];
 
-    // filtro por texto
     var casaTexto = true;
     if (estado.busca !== "") {
       casaTexto = ideia.titulo.includes(estado.busca) ||
                   ideia.resumo.includes(estado.busca);
     }
 
-    // filtro por tag
     var casaTag = true;
     if (estado.tag !== null) {
       casaTag = ideia.tags.indexOf(estado.tag) >= 0;
@@ -61,8 +45,6 @@ function ideiasVisiveis() {
   return resultado;
 }
 
-/* --------------------------------------------------------- desenho */
-
 function desenhar() {
   desenharSeletorDePessoas();
   desenharMural();
@@ -72,7 +54,7 @@ function desenhar() {
 
 function desenharSeletorDePessoas() {
   var alvo = document.getElementById("quem");
-  if (alvo.options.length > 0) return;   // só monta uma vez
+  if (alvo.options.length > 0) return;
   for (var i = 0; i < DADOS.pessoas.length; i++) {
     var p = DADOS.pessoas[i];
     var opcao = document.createElement("option");
@@ -187,8 +169,6 @@ function desenharGrupos() {
   }
 }
 
-/* ---------------------------------------------------------- ações */
-
 function criarCliqueDeTag(tag) {
   return function () {
     estado.tag = tag;
@@ -210,8 +190,6 @@ function trocarAba(qual) {
   document.getElementById("aba-mural").className = (qual === "mural") ? "aba ativa" : "aba";
   document.getElementById("aba-grupos").className = (qual === "grupos") ? "aba ativa" : "aba";
 }
-
-/* --------------------------------------------------------- início */
 
 function iniciar() {
   estado.pessoa = DADOS.pessoas[0].id;
