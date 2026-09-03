@@ -33,21 +33,16 @@
 > outra; não fragmentar.
 
 ### A fazer
-
+* V-02
+* V-03
+* V-04
+* V-05
 
 ### Em andamento
 
 
 ### Concluído
-* V-01
-* V-02
-* V-03
-* V-04
-* V-05
-* V-06
-* V-07
-* V-08
-* V-09
+
 
 
 
@@ -63,7 +58,7 @@
 
 **O que foi retirado do compromisso:** *(IDs e motivo)*
 
-todas as historias exceto as v-02 v-05 v-09
+todas as historias exceto as v-02 v-03 v-04 v-05
 
 **O que o cliente decidiu:** *(registrar a decisão nas palavras em que foi dada)*
 
