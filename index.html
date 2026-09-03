@@ -27,12 +27,25 @@
 <main>
   <!-- ------------------------------ MURAL ------------------------------ -->
   <section id="mural">
-    <div class="barra">
-      <input id="busca" type="search" placeholder="buscar por título ou resumo...">
-      <span id="contagem" class="contagem"></span>
+    <div class="mural-corpo">
+      <aside class="barra-lateral">
+        <h2>Cursos</h2>
+        <ul id="filtro-cursos" class="filtro-cursos">
+          <li><button type="button" class="filtro-curso" data-curso="todos">Todos</button></li>
+          <li><button type="button" class="filtro-curso" data-curso="ADM">Administração</button></li>
+          <li><button type="button" class="filtro-curso" data-curso="TDS">Desenvolvimento de Sistemas</button></li>
+          <li><button type="button" class="filtro-curso" data-curso="TPJD">Programação de Jogos</button></li>
+        </ul>
+      </aside>
+      <div class="mural-conteudo">
+        <div class="barra">
+          <input id="busca" type="search" placeholder="buscar por título ou resumo...">
+          <span id="contagem" class="contagem"></span>
+        </div>
+        <p id="filtro-ativo" class="filtro-ativo"></p>
+        <div id="cartoes" class="cartoes"></div>
+      </div>
     </div>
-    <p id="filtro-ativo" class="filtro-ativo"></p>
-    <div id="cartoes" class="cartoes"></div>
   </section>
 
   <!-- ------------------------------ GRUPOS ----------------------------- -->
