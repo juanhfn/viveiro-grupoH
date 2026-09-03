@@ -42,6 +42,50 @@ header h1{ margin:0; font-size:26px; letter-spacing:1px; }
 }
 .aba.ativa{ color:var(--verde); font-weight:bold; border-bottom-color:var(--broto); }
 main{ padding:20px 26px 40px; }
+.mural-corpo{
+  display:flex;
+  align-items:flex-start;
+  gap:24px;
+}
+.barra-lateral{
+  flex:0 0 220px;
+  background:var(--cartao);
+  border:1px solid var(--linha);
+  border-radius:8px;
+  padding:16px;
+}
+.barra-lateral h2{
+  margin:0 0 10px;
+  font-size:12.5px;
+  text-transform:uppercase;
+  letter-spacing:.6px;
+  color:var(--suave);
+}
+.filtro-cursos{ list-style:none; margin:0; padding:0; }
+.filtro-cursos li{ margin-bottom:4px; }
+.filtro-curso{
+  display:block;
+  width:100%;
+  text-align:left;
+  border:none;
+  background:none;
+  cursor:pointer;
+  font-size:14px;
+  padding:8px 10px;
+  border-radius:6px;
+  color:var(--tinta);
+}
+.filtro-curso:hover{ background:var(--verde-claro); }
+.filtro-curso.ativo{
+  background:var(--verde);
+  color:#fff;
+  font-weight:bold;
+}
+.mural-conteudo{ flex:1; min-width:0; }
+@media (max-width:720px){
+  .mural-corpo{ flex-direction:column; }
+  .barra-lateral{ flex:1 1 auto; width:100%; }
+}
 .barra{ display:flex; align-items:center; gap:14px; margin-bottom:10px; }
 #busca{
   flex:0 0 340px; font-size:15px; padding:8px 12px;
