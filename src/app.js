@@ -2,7 +2,22 @@ var estado = {
   pessoa: null,
   busca: "",
   tag: null,
+  curso: null,
   aba: "mural"
+};
+
+// cada curso real da base cai dentro de um dos 3 grupos do filtro
+var MAPA_CURSOS = {
+  TADM: "ADM",
+  TCOM: "ADM",
+  TDS: "TDS",
+  TPJD: "TPJD"
+};
+
+var NOMES_CURSOS = {
+  ADM: "Administração",
+  TDS: "Desenvolvimento de Sistemas",
+  TPJD: "Programação de Jogos"
 };
 
 function pessoaPorId(id) {
@@ -15,6 +30,12 @@ function pessoaPorId(id) {
 function nomeDe(id) {
   var p = pessoaPorId(id);
   return p ? p.nome : "(desconhecido)";
+}
+
+function cursoDaIdeia(ideia) {
+  var autor = pessoaPorId(ideia.autor);
+  if (!autor) return null;
+  return MAPA_CURSOS[autor.curso] || null;
 }
 
 function ideiaPorId(id) {
@@ -40,7 +61,12 @@ function ideiasVisiveis() {
       casaTag = ideia.tags.indexOf(estado.tag) >= 0;
     }
 
-    if (casaTexto && casaTag) resultado.push(ideia);
+    var casaCurso = true;
+    if (estado.curso !== null) {
+      casaCurso = cursoDaIdeia(ideia) === estado.curso;
+    }
+
+    if (casaTexto && casaTag && casaCurso) resultado.push(ideia);
   }
   return resultado;
 }
@@ -82,11 +108,16 @@ function desenharMural() {
     lista.length + " de " + DADOS.ideias.length + " ideias";
 
   var aviso = document.getElementById("filtro-ativo");
-  if (estado.tag !== null) {
-    aviso.textContent = "mostrando apenas ideias com a etiqueta: " + estado.tag;
-  } else {
-    aviso.textContent = "";
+  var partes = [];
+  if (estado.curso !== null) {
+    partes.push("curso: " + NOMES_CURSOS[estado.curso]);
   }
+  if (estado.tag !== null) {
+    partes.push("etiqueta: " + estado.tag);
+  }
+  aviso.textContent = partes.length > 0
+    ? "mostrando apenas ideias com " + partes.join(" · ")
+    : "";
 }
 
 function montarMensagemVazia() {
@@ -176,6 +207,24 @@ function criarCliqueDeTag(tag) {
   };
 }
 
+function criarCliqueDeCurso(curso) {
+  return function () {
+    estado.curso = curso;
+    atualizarBotoesCurso();
+    desenharMural();
+  };
+}
+
+function atualizarBotoesCurso() {
+  var botoes = document.querySelectorAll(".filtro-curso");
+  for (var i = 0; i < botoes.length; i++) {
+    var valor = botoes[i].getAttribute("data-curso");
+    var estaAtivo = (valor === "todos" && estado.curso === null) ||
+                     (valor === estado.curso);
+    botoes[i].className = estaAtivo ? "filtro-curso ativo" : "filtro-curso";
+  }
+}
+
 function criarCliqueDeApoio(idIdeia) {
   return function () {
     var ideia = ideiaPorId(idIdeia);
@@ -205,6 +254,13 @@ function iniciar() {
 
   document.getElementById("aba-mural").onclick  = function () { trocarAba("mural"); };
   document.getElementById("aba-grupos").onclick = function () { trocarAba("grupos"); };
+
+  var botoesCurso = document.querySelectorAll(".filtro-curso");
+  for (var i = 0; i < botoesCurso.length; i++) {
+    var valor = botoesCurso[i].getAttribute("data-curso");
+    botoesCurso[i].onclick = criarCliqueDeCurso(valor === "todos" ? null : valor);
+  }
+  atualizarBotoesCurso();
 
   desenhar();
 }
