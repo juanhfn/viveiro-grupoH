@@ -196,8 +196,36 @@ function desenharGrupos() {
     descricao.textContent = g.descricao;
     item.appendChild(descricao);
 
+    var souMembro = g.membros.indexOf(estado.pessoa) >= 0;
+
+    var botao = document.createElement("button");
+    botao.className = souMembro ? "grupo-acao sair" : "grupo-acao entrar";
+    botao.textContent = souMembro ? "sair" : "entrar";
+    if (souMembro) {
+      // caso o estilo.css ainda não tenha a classe .sair definida,
+      // isso garante o vermelho mesmo assim
+      botao.style.backgroundColor = "#c0392b";
+      botao.style.color = "#fff";
+      botao.style.borderColor = "#c0392b";
+    }
+    botao.onclick = criarCliqueDeGrupo(i);
+    item.appendChild(botao);
+
     alvo.appendChild(item);
   }
+}
+
+function criarCliqueDeGrupo(indiceGrupo) {
+  return function () {
+    var g = DADOS.grupos[indiceGrupo];
+    var indicePessoa = g.membros.indexOf(estado.pessoa);
+    if (indicePessoa >= 0) {
+      g.membros.splice(indicePessoa, 1);
+    } else {
+      g.membros.push(estado.pessoa);
+    }
+    desenharGrupos();
+  };
 }
 
 function criarCliqueDeTag(tag) {
@@ -250,6 +278,7 @@ function iniciar() {
 
   document.getElementById("quem").onchange = function (e) {
     estado.pessoa = Number(e.target.value);
+    desenharGrupos();
   };
 
   document.getElementById("aba-mural").onclick  = function () { trocarAba("mural"); };
