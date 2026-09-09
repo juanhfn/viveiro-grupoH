@@ -202,9 +202,11 @@ function montarCartao(ideia) {
   var rodape = document.createElement("div");
   rodape.className = "rodape";
 
+  var jaApoiei = ideia.apoiadores && ideia.apoiadores.indexOf(estado.pessoa) >= 0;
+
   var botao = document.createElement("button");
-  botao.className = "apoiar";
-  botao.textContent = "apoiar";
+  botao.className = jaApoiei ? "apoiar apoiado" : "apoiar";
+  botao.textContent = jaApoiei ? "remover apoio" : "apoiar";
   botao.onclick = criarCliqueDeApoio(ideia.id);
   rodape.appendChild(botao);
 
@@ -299,7 +301,16 @@ function atualizarBotoesCurso() {
 function criarCliqueDeApoio(idIdeia) {
   return function () {
     var ideia = ideiaPorId(idIdeia);
-    ideia.apoios = ideia.apoios + 1;
+    if (!ideia.apoiadores) ideia.apoiadores = [];
+
+    var indice = ideia.apoiadores.indexOf(estado.pessoa);
+    if (indice >= 0) {
+      ideia.apoiadores.splice(indice, 1);
+      ideia.apoios = ideia.apoios - 1;
+    } else {
+      ideia.apoiadores.push(estado.pessoa);
+      ideia.apoios = ideia.apoios + 1;
+    }
     desenharMural();
   };
 }
@@ -322,6 +333,7 @@ function iniciar() {
 
   document.getElementById("quem").onchange = function (e) {
     estado.pessoa = Number(e.target.value);
+    desenharMural();
     desenharGrupos();
   };
 
