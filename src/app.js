@@ -20,6 +20,20 @@ var NOMES_CURSOS = {
   TPJD: "Programação de Jogos"
 };
 
+function normalizar(texto) {
+  return texto
+    .toString()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function formatarData(dataISO) {
+  var partes = dataISO.split("-");
+  if (partes.length !== 3) return dataISO;
+  return partes[2] + "/" + partes[1] + "/" + partes[0];
+}
+
 function pessoaPorId(id) {
   for (var i = 0; i < DADOS.pessoas.length; i++) {
     if (DADOS.pessoas[i].id === id) return DADOS.pessoas[i];
@@ -52,8 +66,9 @@ function ideiasVisiveis() {
 
     var casaTexto = true;
     if (estado.busca !== "") {
-      casaTexto = ideia.titulo.includes(estado.busca) ||
-                  ideia.resumo.includes(estado.busca);
+      var buscaNormalizada = normalizar(estado.busca);
+      casaTexto = normalizar(ideia.titulo).indexOf(buscaNormalizada) >= 0 ||
+                  normalizar(ideia.resumo).indexOf(buscaNormalizada) >= 0;
     }
 
     var casaTag = true;
@@ -108,16 +123,44 @@ function desenharMural() {
     lista.length + " de " + DADOS.ideias.length + " ideias";
 
   var aviso = document.getElementById("filtro-ativo");
+  aviso.innerHTML = "";
+
   var partes = [];
   if (estado.curso !== null) {
-    partes.push("curso: " + NOMES_CURSOS[estado.curso]);
+    partes.push({
+      texto: "curso: " + NOMES_CURSOS[estado.curso],
+      limpar: function () {
+        estado.curso = null;
+        atualizarBotoesCurso();
+        desenharMural();
+      }
+    });
   }
   if (estado.tag !== null) {
-    partes.push("etiqueta: " + estado.tag);
+    partes.push({
+      texto: "etiqueta: " + estado.tag,
+      limpar: function () {
+        estado.tag = null;
+        desenharMural();
+      }
+    });
   }
-  aviso.textContent = partes.length > 0
-    ? "mostrando apenas ideias com " + partes.join(" · ")
-    : "";
+
+  if (partes.length > 0) {
+    aviso.appendChild(document.createTextNode("mostrando apenas ideias com "));
+    for (var i = 0; i < partes.length; i++) {
+      if (i > 0) aviso.appendChild(document.createTextNode(" · "));
+      aviso.appendChild(document.createTextNode(partes[i].texto + " "));
+
+      var botaoLimpar = document.createElement("button");
+      botaoLimpar.type = "button";
+      botaoLimpar.className = "limpar-filtro";
+      botaoLimpar.textContent = "×";
+      botaoLimpar.setAttribute("aria-label", "remover filtro");
+      botaoLimpar.onclick = partes[i].limpar;
+      aviso.appendChild(botaoLimpar);
+    }
+  }
 }
 
 function montarMensagemVazia() {
@@ -137,7 +180,7 @@ function montarCartao(ideia) {
 
   var autoria = document.createElement("div");
   autoria.className = "autoria";
-  autoria.textContent = nomeDe(ideia.autor) + " · " + ideia.data;
+  autoria.textContent = nomeDe(ideia.autor) + " · " + formatarData(ideia.data);
   cartao.appendChild(autoria);
 
   var resumo = document.createElement("p");
@@ -257,6 +300,7 @@ function criarCliqueDeApoio(idIdeia) {
   return function () {
     var ideia = ideiaPorId(idIdeia);
     ideia.apoios = ideia.apoios + 1;
+    desenharMural();
   };
 }
 
