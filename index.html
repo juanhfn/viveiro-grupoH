@@ -22,6 +22,7 @@
 <nav class="abas">
   <button id="aba-mural" class="aba ativa">Mural</button>
   <button id="aba-grupos" class="aba">Grupos</button>
+  <button id="aba-publicar" class="aba">Publicar ideia</button>
 </nav>
 
 <main>
@@ -52,6 +53,25 @@
   <section id="grupos" class="escondido">
     <ul id="lista-grupos" class="lista-grupos"></ul>
   </section>
+
+  <!-- ------------------------------ PUBLICAR --------------------------- -->
+  <section id="publicar" class="escondido">
+    <form id="form-publicar" class="form-publicar" novalidate>
+      <label for="form-titulo">Título</label>
+      <input id="form-titulo" type="text" placeholder="dê um nome para a ideia">
+
+      <label for="form-resumo">Resumo</label>
+      <textarea id="form-resumo" rows="4" placeholder="conte do que se trata, em poucas linhas"></textarea>
+
+      <label for="form-tags">Tags</label>
+      <input id="form-tags" type="text" placeholder="separe por vírgula, ex: sustentabilidade, app">
+
+      <p id="publicar-erro" class="publicar-erro"></p>
+
+      <button type="submit" class="publicar-enviar">Publicar</button>
+    </form>
+  </section>
+
 </main>
 
 <footer>
