@@ -33,18 +33,18 @@
 > outra; não fragmentar.
 
 ### A fazer
-* V-02
+
 * V-03
-* V-04
-* V-05
+
+
 
 ### Em andamento
 
 
 ### Concluído
-
-
-
+* V-02
+* V-04
+* V-05
 
 ## 4. Registro da renegociação de escopo — 13/08
 
