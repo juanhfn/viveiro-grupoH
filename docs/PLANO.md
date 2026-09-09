@@ -34,7 +34,7 @@
 
 ### A fazer
 
-* V-03
+
 
 
 
@@ -45,6 +45,7 @@
 * V-02
 * V-04
 * V-05
+* V-03
 
 ## 4. Registro da renegociação de escopo — 13/08
 
