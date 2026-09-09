@@ -273,6 +273,75 @@ function criarCliqueDeGrupo(indiceGrupo) {
   };
 }
 
+function proximoIdIdeia() {
+  var maior = 0;
+  for (var i = 0; i < DADOS.ideias.length; i++) {
+    if (DADOS.ideias[i].id > maior) maior = DADOS.ideias[i].id;
+  }
+  return maior + 1;
+}
+
+function dataDeHoje() {
+  var hoje = new Date();
+  var ano = hoje.getFullYear();
+  var mes = String(hoje.getMonth() + 1).padStart(2, "0");
+  var dia = String(hoje.getDate()).padStart(2, "0");
+  return ano + "-" + mes + "-" + dia;
+}
+
+function tagsDoTexto(texto) {
+  var pedacos = texto.split(",");
+  var tags = [];
+  for (var i = 0; i < pedacos.length; i++) {
+    var limpa = pedacos[i].trim();
+    if (limpa !== "") tags.push(limpa);
+  }
+  return tags;
+}
+
+function publicarIdeia(e) {
+  e.preventDefault();
+
+  var campoTitulo = document.getElementById("form-titulo");
+  var campoResumo = document.getElementById("form-resumo");
+  var campoTags = document.getElementById("form-tags");
+  var erro = document.getElementById("publicar-erro");
+
+  var titulo = campoTitulo.value.trim();
+  if (titulo === "") {
+    erro.textContent = "escreva um título antes de publicar.";
+    campoTitulo.focus();
+    return;
+  }
+  erro.textContent = "";
+
+  var novaIdeia = {
+    id: proximoIdIdeia(),
+    titulo: titulo,
+    resumo: campoResumo.value.trim(),
+    autor: estado.pessoa,
+    data: dataDeHoje(),
+    tags: tagsDoTexto(campoTags.value),
+    apoios: 0,
+    apoiadores: []
+  };
+
+  DADOS.ideias.unshift(novaIdeia);
+
+  campoTitulo.value = "";
+  campoResumo.value = "";
+  campoTags.value = "";
+
+  estado.busca = "";
+  estado.tag = null;
+  estado.curso = null;
+  document.getElementById("busca").value = "";
+  atualizarBotoesCurso();
+
+  desenharMural();
+  trocarAba("mural");
+}
+
 function criarCliqueDeTag(tag) {
   return function () {
     estado.tag = tag;
@@ -319,8 +388,10 @@ function trocarAba(qual) {
   estado.aba = qual;
   document.getElementById("mural").className = (qual === "mural") ? "" : "escondido";
   document.getElementById("grupos").className = (qual === "grupos") ? "" : "escondido";
+  document.getElementById("publicar").className = (qual === "publicar") ? "" : "escondido";
   document.getElementById("aba-mural").className = (qual === "mural") ? "aba ativa" : "aba";
   document.getElementById("aba-grupos").className = (qual === "grupos") ? "aba ativa" : "aba";
+  document.getElementById("aba-publicar").className = (qual === "publicar") ? "aba ativa" : "aba";
 }
 
 function iniciar() {
@@ -339,6 +410,9 @@ function iniciar() {
 
   document.getElementById("aba-mural").onclick  = function () { trocarAba("mural"); };
   document.getElementById("aba-grupos").onclick = function () { trocarAba("grupos"); };
+  document.getElementById("aba-publicar").onclick = function () { trocarAba("publicar"); };
+
+  document.getElementById("form-publicar").onsubmit = publicarIdeia;
 
   var botoesCurso = document.querySelectorAll(".filtro-curso");
   for (var i = 0; i < botoesCurso.length; i++) {
